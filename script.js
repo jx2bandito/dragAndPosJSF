@@ -1,4 +1,4 @@
-function dragAndShow($movable, $output) {
+function dragAndPos($movable, $output) {
 
   $movable.draggable({
     drag: function() {
