@@ -1,5 +1,11 @@
-function dragAndPos($movable, $output) {
 
+function dragAndPos($movable) {
+
+  $("body").prepend("<span id=dragAndPosOutput></span>");
+
+var $output = $("#dragAndPosOutput");
+$output.css({"position": "absolute", "top": "0", "left": "0", "color":"red"});
+  
   $movable.draggable({
     drag: function() {
 
