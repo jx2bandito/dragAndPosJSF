@@ -9,5 +9,5 @@ The output will show the CSS position of the element you're moving around.<br />
 Paste the code into your CSS file and its default position will be where you last dragged it.<br /> 
 Note that the draggable function overwrites CSS positioning at the moment of use.<br /> 
 Otherwise, the position will stick and is completely responsive. <br /> 
-
-This version automatically creates the output area as a span positioned absolutely at left: 0 and top: 0 in the body.
+This version automatically creates the output area as a span positioned absolutely at left: 0 and top: 0 in the body.<br />
+Styling the output area must be done in JS after the function call, eg.: $("#dragAndPosOutput").css({'property':'value'});
